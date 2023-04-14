@@ -63,3 +63,108 @@ background-color: var(--corTerciaria);
         display: flex;
     }
 
+    header ul li{
+        list-style: none;
+     }
+
+     header ul li a{
+        display: inline-block;
+        color: var(--corSecundaria);
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 5px;
+        margin-left: 40px;
+        }
+
+        header ul li a:hover{
+            background-color: var(--corPrimaria);
+            color: var(--corTerciaria);
+            border-radius: 10px;
+        }
+
+        /* ________________________________________________________________ */
+        /* Conteudo */
+
+        .conteudo{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        .conteudo .Textoprincipal{
+            position: relative;
+            max-width: 600px;
+        }
+
+        .conteudo .textoPrincipal h2{
+            color: var(--corSecundaria);
+            font-size: 2.5em;
+            line-height: 1.5em;
+            font-weight: 400;
+        }
+
+        .conteudo .textoPrincipal h2 span{
+            color: var(--corPrimaria);
+            font-size: 1.2em;
+            font-weight: 900;
+
+        }
+
+        .conteudo .textoPrincipal p{
+            color: var(--corSecundaria);
+        }
+
+        .conteudo .textoPrincipal a{
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 20px;
+            background: var(--corPrimaria);
+            color: var(--corTerciaria);
+            border-radius: 40px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-decoration: none;
+
+        }
+
+        .conteudo .textoPrincipal a:hover {
+            background: var(--corSecundaria);
+            color: var(--corTerciaria);
+        }
+/* ___________________________________________________________________________________ */
+        /* Milkshake */
+
+        .conteudo .imgBox img {
+            max-width: 340px;
+        }
+
+        .sorvetes {
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translate(-50%);
+            display: flex;
+        }
+
+        .sorvetes li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .sorvetes li :hover {
+            transform: translateY(-15px);
+        }
+
+        .sorvetes li img {
+            max-width: 60px;
+        }
+
+        
+
